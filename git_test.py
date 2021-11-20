@@ -1,5 +1,5 @@
 def main():
-    print('gitgitgit')
+    print('gitgitgitgitgit')
 
 
 if __name__ == '__main__':
