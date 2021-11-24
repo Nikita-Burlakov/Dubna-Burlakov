@@ -25,9 +25,11 @@ class MyWidget(QMainWindow, Ui_MainWindow):
             for i in range(choice(range(1, 121))):
                 x, y = choice(range(1, 801)), choice(range(1, 601))
                 rad = choice(range(1, 100))
+                #
                 red, green, blue = choice(range(256)), choice(range(256)),\
                                    choice(range(256))
                 qp.setBrush(QColor(red, green, blue))
+                #
                 qp.drawEllipse(x, y, rad, rad)
             self.do_paint = False
             qp.end()
